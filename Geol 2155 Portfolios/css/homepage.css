@@ -1,0 +1,27 @@
+/* Apply a red and white theme */
+body {
+    background-color: white;
+    color: red;
+}
+
+/* Style the header and footer */
+header, footer {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+/* Create a 2x2 grid layout for the sections */
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+/* Style the sections */
+section {
+    background-color: white;
+    color: red;
+    padding: 20px;
+    border: 1px solid red;
+}
