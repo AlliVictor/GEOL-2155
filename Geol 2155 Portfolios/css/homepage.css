@@ -12,10 +12,11 @@ header, footer {
 }
 
 /* Create a 2x2 grid layout for the sections */
-main {
+article {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    grid-gap: 40px;
 }
 
 /* Style the sections */
@@ -23,5 +24,6 @@ section {
     background-color: white;
     color: red;
     padding: 20px;
+    margin: 20px;
     border: 1px solid red;
 }
