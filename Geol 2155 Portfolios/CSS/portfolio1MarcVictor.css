@@ -1,0 +1,65 @@
+/* Apply CSS grid layout to the container */
+article {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column with 3 equal-width rows */
+    grid-gap: 20px; /* Adjust the gap as needed */
+  }
+
+  section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+  }
+  
+  /* Style for colum1 (1 column, 3 rows) */
+/* Apply CSS grid layout to the container */
+.colum1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(3, auto); /* 3 rows with auto height */
+  grid-gap: 20px; /* Adjust the gap as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+  
+  /* Style for colum2 (2 columns) */
+  .colum2 {
+    grid-column: span 1; /* Span 2 columns */
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+  }
+
+  #centered-element {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+  
+  /* Add styles for links */
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Additional styling for headers and paragraphs */
+  h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  /* Style for the reference list */
+  h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
