@@ -22,11 +22,6 @@ article {
   border: 1px solid #ccc;
   margin: 10px;
 }
-
-/* 
-  .colum1main {
-    grid-template-columns: repeat(2 2fr);
-  } */
   
   /* Style for colum2 (2 columns) */
   .colum2 {
@@ -53,7 +48,7 @@ article {
   }
   
   /* Additional styling for headers and paragraphs */
-  h1, h3 {
+  h3 {
     color: #333;
     font-size: 24px;
   }
@@ -67,11 +62,4 @@ article {
   h3 {
     font-size: 20px;
     margin-top: 20px;
-  }
-  
-  /* Add styles for the footer and header if needed */
-  footer, header {
-    background-color: #f2f2f2;
-    padding: 10px;
-    text-align: center;
   }
