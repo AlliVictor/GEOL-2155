@@ -66,11 +66,52 @@ body {
   background-color: #f9f9f9; /* Optional: you can choose any color you like */
 }
 
+
 .mySlides img {
   width: 100%;
   border-radius: 8px 8px 0 0;
 }
 
+/* Style for the container holding the image and content */
+.slide-container {
+  position: relative;
+}
+
+/* Style for the image (make sure it's positioned relatively) */
+.slide-container img {
+  width: 100%;
+}
+
+/* Style for the slide content */
+.slide-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  color: #fff; /* Text color for the content */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px; /* Add padding for spacing */
+}
+
+/* Style for the title */
+.slide-content h2 {
+  margin: 0; /* Remove default margin */
+}
+
+/* Style for the button */
+.slide-content .btn {
+  background-color: #333; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none; /* Remove underline from links */
+  padding: 5px 10px; /* Add padding for spacing */
+  border-radius: 5px; /* Add rounded corners */
+  display: inline-block; /* Display as inline element */
+  width: 85px;
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -98,6 +139,10 @@ body {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+}
+
+main {
+  margin-bottom: 30px;
 }
 
 /* Caption text */
