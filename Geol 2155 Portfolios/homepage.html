@@ -5,100 +5,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/Home.css">
-    <title>Document</title>
+    <title>The Geological</title>
 
 </head>
 
 <body>
     <header class="header">
-            <div class="logo">
-                <h1>GEOL 2155</h1>
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="homepage.html">Home</a></li>
-                    <li><a href="portfolio1AdamUtkarsh.html">Whales</a></li>
-                    <li><a href="portfolio1MarcVictor.html">Birds</a></li>
-                    <li><a href="portfolio1TylerHamza.html">Silesauridae</a></li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <h1>The Geological</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <div class="slideshow-container">
-
-            <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-                <div class="numbertext">1 / 8</div>
-                <img src="Images/slideshow1.jpg" style="width:100%">
+                <div class="numbertext">1 / 6</div>
+                <div class="slide-container">
+                    <img src="Images/slideshow1.jpg" style="width:100%">
+                    <div class="slide-content">
+                        <caption>
+                            <h2>Smallest Whales?</h2>
+                            <P>
+                                Whales, the majestic giants of the sea....
+                                <br> <br> By: Adam Kovacs & Utkarsh Kapoor
+                            </P>
+                            <a href="portfolio1AdamUtkarsh.html" class="btn">Learn More</a>
+                        </caption>
+                    </div>
+                </div>
             </div>
 
             <div class="mySlides fade">
-                <div class="numbertext">2 / 8</div>
-                <img src="Images/slideshow2.jpg" style="width:100%">
+                <div class="numbertext">2 / 6</div>
+                <div class="slide-container">
+                    <img src="Images/slideshow2.jpg" style="width:100%">
+                    <div class="slide-content">
+                        <caption>
+                            <h2>Dinosaurs to Birds</h2>
+                            <P>
+                                The evolution of dinosaurs to birds....
+                                <br> <br>By: Victor Alli & Marc Labso
+                            </P>
+                            <a href="portfolio1MarcVictor.html" class="btn">Learn More</a>
+                        </caption>
+                    </div>
+                </div>
             </div>
 
             <div class="mySlides fade">
-                <div class="numbertext">3 / 8</div>
-                <img src="Images/slideshow3.jpg" style="width:100%">
+                <div class="numbertext">3 / 6</div>
+                <div class="slide-container">
+                    <img src="Images/slideshow3.jpg" style="width:100%">
+                    <div class="slide-content">
+                        <caption>
+                            <h2>Dinosaurs or Not?</h2>
+                            <p>
+                                Silisaurdae. Ornithischian or Dinosaurian?....
+                                <br> <br> By: Hamza Khan & Tyler Mulvey
+                            </p>
+                            <a href="portfolio1TylerHamza.html" class="btn">Learn More</a>
+                        </caption>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <div class="slide-container">
+                    <img src="Images/Image_not_available.png" style="width:100%">
+                    <div class="slide-content">
+                        <caption>
+                            <h2>Not Available</h2>
+                            <p>
+
+                            </p>
+                            <a href="" class="btn">Learn More</a>
+                        </caption>
+                    </div>
+                </div>
             </div>
 
             <div class="mySlides fade">
-                <div class="numbertext">4 / 8</div>
-                <img src="Images/slideshow4.jpg" style="width:100%">
+                <div class="numbertext">5 / 6</div>
+                <div class="slide-container">
+                    <img src="Images/Image_not_available.png" style="width:100%">
+                    <div class="slide-content">
+                        <caption>
+                            <h2>Not Available</h2>
+                            <p>
+
+                            </p>
+                            <a href="" class="btn">Learn More</a>
+                        </caption>
+                    </div>
+                </div>
             </div>
 
             <div class="mySlides fade">
-                <div class="numbertext">5 / 8</div>
-                <img src="Images/slideshow5.jpg" style="width:100%">
-            </div>
+                <div class="numbertext">6 / 6</div>
+                <div class="slide-container">
+                    <img src="Images/Image_not_available.png" style="width:100%">
+                    <div class="slide-content">
+                        <caption>
+                            <h2>Not Available</h2>
+                            <p>
 
-            <div class="mySlides fade">
-                <div class="numbertext">6 / 8</div>
-                <img src="Images/slideshow6.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">7 / 8</div>
-                <img src="Images/HomePg.Tyler-Hamza.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">8 / 8</div>
-                <img src="Images/HomePg (2)Tyler-Hamza.jpg" style="width:100%">
-            </div>
+                            </p>
+                            <a href="" class="btn">Learn More</a>
+                        </caption>
+                    </div>
+                </div>
+            </div> -->
 
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
         </div>
         <br>
 
         <!-- The dots/circles -->
-        <div style="text-align:center">
+        <div class="tabs" style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
+            <!-- <span class="dot" onclick="currentSlide(4)"></span>
             <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-            <span class="dot" onclick="currentSlide(7)"></span>
-            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span> -->
         </div>
     </main>
 
     <footer>
-            <div class="logo">
-                <h1>GEOL 2155</h1>
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="homepage.html">Home</a></li>
-                    <li><a href="portfolio1AdamUtkarsh.html">Whales</a></li>
-                    <li><a href="portfolio1MarcVictor.html">Birds</a></li>
-                    <li><a href="portfolio1TylerHamza.html">TBD</a></li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <h1>The Geological &copy;</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
     </footer>
     <script src="Script/Slideshow.js"></script>
 </body>

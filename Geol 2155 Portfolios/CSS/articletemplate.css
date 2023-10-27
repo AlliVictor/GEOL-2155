@@ -7,8 +7,10 @@ article {
 
   section {
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 3px solid #555843;
+    border-radius: 15px;
     margin: 10px;
+    background-color: #D0D4CA;
   }
   
   /* Style for colum1 (1 column, 3 rows) */
@@ -19,16 +21,20 @@ article {
   grid-template-rows: repeat(3, auto); /* 3 rows with auto height */
   grid-gap: 20px; /* Adjust the gap as needed */
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 5px solid #CD5C08;
+  border-radius: 15px;
   margin: 10px;
+  background-color: #445D48;
 }
   
   /* Style for colum2 (2 columns) */
   .colum2 {
     grid-column: span 1; /* Span 2 columns */
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 3px solid #CD5C08;
+    border-radius: 15px;
     margin: 10px;
+    background-color: #F5EEC8;
   }
 
   #centered-element {
@@ -46,6 +52,10 @@ article {
   a:hover {
     text-decoration: underline;
   }
+
+  article h1 {
+    margin-left: 20px;
+  }
   
   /* Additional styling for headers and paragraphs */
   h3 {
@@ -54,8 +64,8 @@ article {
   }
   
   p {
-    color: #666;
-    font-size: 16px;
+    color: #333;
+    font-size: 20px;
   }
   
   /* Style for the reference list */
