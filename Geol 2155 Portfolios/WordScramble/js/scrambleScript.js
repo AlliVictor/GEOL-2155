@@ -43,5 +43,13 @@ const checkWord = () => {
     initGame();
 }
 
+document.addEventListener("keydown", function(event) {
+    // Check if the pressed key is the Enter key (key code 13)
+    if (event.keyCode === 13 || event.which === 13) {
+      // Call the checkWord function
+      checkWord();
+    }
+  });
+
 refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
