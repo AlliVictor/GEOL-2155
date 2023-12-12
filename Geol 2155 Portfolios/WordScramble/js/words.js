@@ -13,27 +13,27 @@ let words = [
     },
     {
         word: "basilosaurids",
-        hint: "family of extinct cetaceans"
+        hint: "The family of extinct cetaceans"
     },
     {
         word: "theropods",
-        hint: "largest terrestrial carnivores"
+        hint: "Large terrestrial carnivores"
     },
     {
-        word: "Avian",
-        hint: "referred to as modern birds"
+        word: "avian",
+        hint: "Referred to as modern birds"
     },
     {
         word: "bird",
-        hint: "animal that flys"
+        hint: "Animal that flys"
     },
     {
-        word: "taxonomic",
-        hint: "the practice of categorization or classification"
+        word: "taxonomy ",
+        hint: "The practice of categorization or classification"
     },
     {
         word: "cladogram",
-        hint: "depict the relationship differenty group of taxa"
+        hint: "To show the relationship of taxas"
     },
     {
         word: "reptiles",
@@ -41,11 +41,11 @@ let words = [
     },
     {
         word: "china",
-        hint: "A country"
+        hint: "An asian country"
     },
     {
         word: "jurassic",
-        hint: "A geologic period and stratigraphic system"
+        hint: "A geologic period in stratigraphy"
     },
     {
         word: "egg",
@@ -60,12 +60,12 @@ let words = [
         hint: "A topic in one of the articles"
     },
     {
-        word: "tsunamis",
+        word: "tsunami",
         hint: "A huge wave"
     },
     {
         word: "rifting",
-        hint: "tectonic plate undergoes a process of divsion"
+        hint: "Tectonic plate split apart"
     },
     {
         word: "earth",
@@ -73,22 +73,111 @@ let words = [
     },
     {
         word: "fossil",
-        hint: "prehistoric organism"
+        hint: "Prehistoric organism"
     },
     {
         word: "pharaoh",
         hint: "Name for a king in ancient Eygpt"
     },
     {
-        word: "carnivorus",
-        hint: "Animals that onyl eat meat"
+        word: "carnivore",
+        hint: "Animals that only eat meat"
     },
     {
-        word: "Victor",
-        hint: "One of the authors of the website"
+        word: "herbivore",
+        hint: "Animals that only eat plants"
     },
     {
-        word: "Reproduction",
-        hint: "the production of offspring"
+        word: "omnivore",
+        hint: "Animals that eat meat & plants"
     },
+    {
+        word: "crust",
+        hint: "Thin layer of the earth"
+    },
+    {
+        word: "reproduction",
+        hint: "The production of offspring"
+    },
+    {
+        word: "ornothischia",
+        hint: "Bird-hipped"
+    },
+    {
+        word: "saurischia",
+        hint: "Reptile-hipped"
+    },
+    {
+        word: "lithosphere",
+        hint: "The solid, outer part of Earth"
+    },
+    {
+        word: "T-rex",
+        hint: "A dinosaur"
+    },
+    {
+        word: "Basilosauridae",
+        hint: "Ancient whale family"
+    },  
+    {
+        word: "Evolution",
+        hint: "Gradual development over time"
+    },    
+    {
+        word: "Phylogenetic",
+        hint: "Study of evolutionary relationships"
+    },   
+    {
+        word: "Terrestrial",
+        hint: "Relating to land"
+    },
+    {
+        word: "Adaptation",
+        hint: "Organisms changing to fit environment"
+    },
+    {
+        word: "Cetacea",
+        hint: "Whale, dolphin, porpoise group"
+    },
+    {
+        word: "Paleontology",
+        hint: "Fossil study for Earth's history"
+    },
+    {
+        word: "Eocene",
+        hint: "Time of Tutcetus rayanensis"
+    },
+    {
+        word: "Fossilization",
+        hint: "Process of turning remains into fossils"
+    },
+    {
+        word: "Protocetidae",
+        hint: "Semi-aquatic cetacean group in evolutionary tree"
+    },
+    {
+        word: "Eukaryota",
+        hint: "Domain in the classification of Tutcetus rayanensis"
+    },
+    {
+        word: "Neornithes",
+        hint: "Subclass of Aves, Modern birds"
+    },
+    {
+        word: "Maniraptora",
+        hint: "Clade with bipedalism and limbs"
+    },
+    {
+        word: "Euornithes",
+        hint: "True birds"
+    },
+    {
+        word: "Avialae",
+        hint: "Old birds"
+    },
+    {
+        word: "Feathers",
+        hint: "birds are covered in it"
+    },
+
 ]
