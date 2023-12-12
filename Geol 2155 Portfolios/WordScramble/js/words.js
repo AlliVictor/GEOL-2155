@@ -1,94 +1,94 @@
 let words = [
     {
-        word: "addition",
-        hint: "The process of adding numbers"
+        word: "whale",
+        hint: "A big sea Creature"
     },
     {
-        word: "meeting",
-        hint: "Event in which people come together"
+        word: "mantle",
+        hint: "One of earths layers"
     },
     {
-        word: "number",
-        hint: "Math symbol used for counting"
+        word: "tectonic",
+        hint: "Structure of earths crust"
     },
     {
-        word: "exchange",
-        hint: "The act of trading"
+        word: "basilosaurids",
+        hint: "family of extinct cetaceans"
     },
     {
-        word: "canvas",
-        hint: "Piece of fabric for oil painting"
+        word: "theropods",
+        hint: "largest terrestrial carnivores"
     },
     {
-        word: "garden",
-        hint: "Space for planting flower and plant"
+        word: "Avian",
+        hint: "referred to as modern birds"
     },
     {
-        word: "position",
-        hint: "Location of someone or something"
+        word: "bird",
+        hint: "animal that flys"
     },
     {
-        word: "feather",
-        hint: "Hair like outer covering of bird"
+        word: "taxonomic",
+        hint: "the practice of categorization or classification"
     },
     {
-        word: "comfort",
-        hint: "A pleasant feeling of relaxation"
+        word: "cladogram",
+        hint: "depict the relationship differenty group of taxa"
     },
     {
-        word: "tongue",
-        hint: "The muscular organ of mouth"
+        word: "reptiles",
+        hint: "Cold blodded organisms"
     },
     {
-        word: "expansion",
-        hint: "The process of increase or grow"
+        word: "china",
+        hint: "A country"
     },
     {
-        word: "country",
-        hint: "A politically identified region"
+        word: "jurassic",
+        hint: "A geologic period and stratigraphic system"
     },
     {
-        word: "group",
-        hint: "A number of objects or persons"
+        word: "egg",
+        hint: "BREAKFAST"
     },
     {
-        word: "taste",
-        hint: "Ability of tongue to detect flavour"
+        word: "turtle",
+        hint: "An organism with a shell"
     },
     {
-        word: "store",
-        hint: "Large shop where goods are traded"
+        word: "Qianlong",
+        hint: "A topic in one of the articles"
     },
     {
-        word: "field",
-        hint: "Area of land for farming activities"
+        word: "tsunamis",
+        hint: "A huge wave"
     },
     {
-        word: "friend",
-        hint: "Person other than a family member"
+        word: "rifting",
+        hint: "tectonic plate undergoes a process of divsion"
     },
     {
-        word: "pocket",
-        hint: "A bag for carrying small items"
+        word: "earth",
+        hint: "Our planet"
     },
     {
-        word: "needle",
-        hint: "A thin and sharp metal pin"
+        word: "fossil",
+        hint: "prehistoric organism"
     },
     {
-        word: "expert",
-        hint: "Person with extensive knowledge"
+        word: "pharaoh",
+        hint: "Name for a king in ancient Eygpt"
     },
     {
-        word: "statement",
-        hint: "A declaration of something"
+        word: "carnivorus",
+        hint: "Animals that onyl eat meat"
     },
     {
-        word: "second",
-        hint: "One-sixtieth of a minute"
+        word: "Victor",
+        hint: "One of the authors of the website"
     },
     {
-        word: "library",
-        hint: "Place containing collection of books"
+        word: "Reproduction",
+        hint: "the production of offspring"
     },
 ]
